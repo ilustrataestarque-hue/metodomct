@@ -14,6 +14,7 @@
   <meta property="og:title" content="Método MCT — Domine o Corte na Tesoura">
   <meta property="og:description" content="Barbeiro que não usa tesoura em 2026 está ficando para trás.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://SEUSITE.com/assets/images/corte-principal.png">
 
   <style>
     body {
@@ -113,14 +114,17 @@
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
-
+@media (max-width: 768px) {
 .hero-wallpaper {
-  min-height: 100vh;
+  min-height: auto;
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 0;
+  padding: 40px 0;
+}
+      }
 
+    
   background: linear-gradient(135deg, #000, #111, #000);
   background-size: 400% 400%;
   animation: gradientMove 12s ease infinite;
@@ -153,7 +157,7 @@
 
 .cut-image img {
   width: 100%;
-  max-width: 720px;
+  max-width: 640px;
   border-radius: 20px;
   box-shadow: 0 18px 40px rgba(0,0,0,0.5);
 }
